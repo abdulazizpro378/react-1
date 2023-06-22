@@ -1,0 +1,93 @@
+.home {
+  padding-top: 80px;
+  display: flex;
+}
+
+.home-left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 227px;
+}
+
+.home-left h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 74px;
+  max-width: 518px;
+
+  color: #211f54;
+}
+
+.home-left p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  margin-top: 22px;
+  max-width: 591px;
+
+  color: #6e7191;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 34px;
+}
+
+.button img {
+  max-width: 72px;
+  width: 100%;
+}
+
+.tel {
+  margin-left: -14px;
+}
+
+.tel span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: #6e7191;
+}
+
+.tel p {
+  margin-top: -2px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #211f54;
+  max-width: 223px;
+}
+
+.home-right img {
+  max-width: 780px;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .home-right {
+    margin-top: 13px;
+  }
+}
+
+@media (max-width: 550px) {
+    .home-left h1 {
+        font-size: 44px;
+    }
+    .button{
+        flex-direction: column;
+    }
+}
